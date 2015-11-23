@@ -92,7 +92,7 @@ int main(int argc, char* argv[])
   const BigInteger max_complexity =
     (argc == 3
     ? BigInteger(boost::lexical_cast<int>(argv[2]))
-    : ribi::Newick::CalcComplexity(ribi::NewickVector(s_in).Peek()) - 1);
+    : ribi::Newick().CalcComplexity(ribi::NewickVector(s_in).Peek()) - 1);
   const std::string s_out
     = ribi::ToolSimplifyNewickMainDialog::SimplifyNewick(s_in,max_complexity);
   std::cout << s_out << '\n';

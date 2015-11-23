@@ -59,33 +59,6 @@ private slots:
   void on_edit_max_complexity_textChanged(const QString &arg1) noexcept;
 };
 
-///CliToStr converts a cln::cl_I to std::string.
-///From http://www.richelbilderbeek.nl/CppCliToStr.htm
-//const std::string CliToStr(const cln::cl_I& i);
-
-///IntToStrWithSep converts an integer to std::string
-///and adds thousands seperators.
-///From http://www.richelbilderbeek.nl/CppIntToStrWithSep.htm
-//const std::string IntToStrWithSep(cln::cl_I i);
-
-///GetMaxInt returns the highest possible value of a int.
-///From http://www.richelbilderbeek.nl/CppGetMaxInt.htm
-//int GetMaxInt();
-
-///SafeIntToCli converts an int to cln::cl_I safely.
-///From http://www.richelbilderbeek.nl/CppSafeIntToCli.htm
-//const cln::cl_I SafeIntToCli(const int i);
-
-///SimplifyNewick simplifies a Newick below a certain complexity.
-///From http://www.richelbilderbeek.nl/CppSimplifyNewick.htm
-//const std::string SimplifyNewick(
-//  const std::string& newick, const cln::cl_I& max_complexity);
-
-///SimplifyNewick simplifies a Newick below a certain complexity.
-///From http://www.richelbilderbeek.nl/CppSimplifyNewick.htm
-//const std::string SimplifyNewick(
-//  const std::string& newick, const BigInteger& max_complexity);
-
 } //~namespace ribi
 
 #endif // QTTOOLSIMPLIFYNEWICKMAINDIALOG_H

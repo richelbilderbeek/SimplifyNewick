@@ -24,7 +24,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include <iostream>
 
 #include "newickvector.h"
-#include "richelbilderbeekprogram.h"
 #include "testtimer.h"
 
 int ribi::ToolSimplifyNewickMenuDialog::ExecuteSpecific(const std::vector<std::string>& argv) noexcept
@@ -71,18 +70,9 @@ ribi::Help ribi::ToolSimplifyNewickMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::ToolSimplifyNewickMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramSimplifyNewick
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::ToolSimplifyNewickMenuDialog::GetVersion() const noexcept
 {
-  return "3.1";
+  return "4.0";
 }
 
 std::vector<std::string> ribi::ToolSimplifyNewickMenuDialog::GetVersionHistory() const noexcept
@@ -93,7 +83,8 @@ std::vector<std::string> ribi::ToolSimplifyNewickMenuDialog::GetVersionHistory()
     "2010-09-16: version 1.2: simplification is frequency dependent. For example: (100,2) will be simplified to (99,2) 50x more often than to (100,1)",
     "2011-05-07: version 2.0: use NewickVector instead of BinaryNewickVector, replace custom about and whats new dialog by QtAboutDialog",
     "2013-09-19: version 3.0: conformized for ProjectRichelBilderbeek",
-    "2013-11-05: version 3.1: conformized for ProjectRichelBilderbeekConsole"
+    "2013-11-05: version 3.1: conformized for ProjectRichelBilderbeekConsole",
+    "2015-11-23: version 4.0: moved to own GitHub",
   };
 }
 

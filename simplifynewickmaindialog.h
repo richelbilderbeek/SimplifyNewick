@@ -37,7 +37,8 @@ struct ToolSimplifyNewickMainDialog
   ///From http://www.richelbilderbeek.nl/CppSimplifyNewick.htm
   static std::string SimplifyNewick(
     const std::string& s,
-    const BigInteger& max_complexity);
+    const BigInteger& max_complexity
+  );
 
   private:
   static int SumSecond(const std::vector<std::pair<std::vector<int>,int> >& v) noexcept;

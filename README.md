@@ -1,2 +1,5 @@
 # SimplifyNewick
-Tool to test the simplication of a Newick using C++ and Qt
+
+Simplify a Newick below a certain complexity using C++ and Qt.
+
+![SimplifyNewick v4.0](Screenshots/SimplifyNewick_4_0.png)
