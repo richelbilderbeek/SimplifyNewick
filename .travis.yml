@@ -40,7 +40,9 @@ script:
   # Console test
   - qmake -qt=qt5 SimplifyNewickDesktop.pro
   - make debug
-  - ./SimplifyNewickDesktop
+  - ./SimplifyNewickDesktop &
+  - sleep 10
+  - sudo killall SimplifyNewickDesktop
   # cppcheck
   - cppcheck --quiet --error-exitcode=1 . 
   # Get code coverage
