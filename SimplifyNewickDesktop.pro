@@ -1,6 +1,10 @@
 include(../RibiLibraries/BigInteger.pri)
-include(../RibiLibraries/GeneralConsole.pri)
-include(../RibiLibraries/GeneralDesktop.pri)
+include(../RibiClasses/CppAbout/CppAbout.pri)
+include(../RibiClasses/CppFileIo/CppFileIo.pri)
+include(../RibiClasses/CppHelp/CppHelp.pri)
+include(../RibiClasses/CppMenuDialog/CppMenuDialog.pri)
+include(../RibiClasses/CppQtAboutDialog/CppQtAboutDialog.pri)
+include(../RibiClasses/CppQtHideAndShowDialog/CppQtHideAndShowDialog.pri)
 include(../RibiClasses/CppFuzzy_equal_to/CppFuzzy_equal_to.pri)
 include(../RibiClasses/CppNewick/CppNewick.pri)
 include(../RibiClasses/CppNewickVector/CppNewickVector.pri)
@@ -15,7 +19,8 @@ QMAKE_CXXFLAGS += -std=c++14
 
 # High warning levels
 # Qt does not go well with -Weffc++
-QMAKE_CXXFLAGS += -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Werror
+# -Wshadow does not go well with BigInteger
+QMAKE_CXXFLAGS += -Wall -Wextra  -Wnon-virtual-dtor -pedantic -Werror
 
 # Debug and release mode
 CONFIG += debug_and_release
