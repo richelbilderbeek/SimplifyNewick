@@ -14,7 +14,7 @@ namespace ribi {
 
 class QtToolSimplifyNewickMenuDialog : public QtHideAndShowDialog
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
   explicit QtToolSimplifyNewickMenuDialog(QWidget *parent = 0);

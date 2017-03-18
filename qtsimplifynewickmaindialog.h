@@ -36,7 +36,7 @@ namespace ribi {
 
 class QtToolSimplifyNewickMainDialog : public QtHideAndShowDialog
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
   explicit QtToolSimplifyNewickMainDialog(QWidget *parent = 0) noexcept;
@@ -46,10 +46,6 @@ public:
 
 private:
   Ui::QtToolSimplifyNewickMainDialog *ui;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 
 private slots:
   void OnAnyEditChange() noexcept;

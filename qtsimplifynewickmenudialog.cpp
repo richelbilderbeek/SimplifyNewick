@@ -6,8 +6,7 @@
 #include "qtsimplifynewickmaindialog.h"
 #include "simplifynewickmaindialog.h"
 #include "simplifynewickmenudialog.h"
-#include "testtimer.h"
-#include "trace.h"
+
 #include "ui_qtsimplifynewickmenudialog.h"
 #pragma GCC diagnostic pop
 
