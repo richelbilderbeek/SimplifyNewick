@@ -35,3 +35,4 @@ SimplifyNewick
 release/
 ui_qt*
 SimplifyNewickDesktop
+out.txt
