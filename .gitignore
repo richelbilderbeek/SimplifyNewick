@@ -27,3 +27,11 @@
 *.out
 *.app
 *.pro.user
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+SimplifyNewick
+release/
+ui_qt*
+SimplifyNewickDesktop
