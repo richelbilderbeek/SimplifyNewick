@@ -1,6 +1,7 @@
 # SimplifyNewick
 
-[Go to the nicely rendered website](https://richelbilderbeek.github.io/SimplifyNewick/).
+[Go to the nicely rendered
+website](https://richelbilderbeek.github.io/SimplifyNewick/).
 
 Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 ---|---
