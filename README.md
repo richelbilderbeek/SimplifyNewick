@@ -1,12 +1,9 @@
 # SimplifyNewick
 
+[![Codecov](https://codecov.io/gh/richelbilderbeek/SimplifyNewick/branch/main/graph/badge.svg)](https://codecov.io/gh/richelbilderbeek/SimplifyNewick)
+
 [Go to the nicely rendered
 website](https://richelbilderbeek.github.io/SimplifyNewick/).
-
-Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
----|---
-`master`|[![Build Status](https://travis-ci.org/richelbilderbeek/SimplifyNewick.svg?branch=master)](https://travis-ci.org/richelbilderbeek/SimplifyNewick)
-`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/SimplifyNewick.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/SimplifyNewick)
 
 Simplify a Newick below a certain complexity using C++ and Qt.
 
