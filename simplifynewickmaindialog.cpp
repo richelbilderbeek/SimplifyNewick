@@ -21,6 +21,7 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include "simplifynewickmaindialog.h"
 
 #include <iostream>
+#include <memory>
 
 #include "newick.h"
 #include "newickvector.h"
